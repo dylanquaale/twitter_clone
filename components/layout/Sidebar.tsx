@@ -5,6 +5,7 @@ import React from 'react'; // Add this line if not already imported
 
 import SidebarItem from './SidebarItem';
 import SidebarLogo from './SidebarLogo';
+import SidebarTweetButton from './SidebarTweetButton'
 
 
 const Sidebar = () => {
@@ -44,6 +45,7 @@ const Sidebar = () => {
          />
           ))}
           <SidebarItem onClick={() => {}} icon={BiLogOut} label="Logout"/>
+          <SidebarTweetButton />
         </div> 
       </div>
     </div>
