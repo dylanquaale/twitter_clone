@@ -2,7 +2,7 @@ const FollowBar = () => {
   return (
     <div className="px-6 py-4 hidden lg:block">
       <div className="bg-sky-500 rounded-xl p-4">
-        <h2 className="text-white text-xl font-semibold">Follow Users</h2>
+        <h2 className="text-white text-xl font-semibold">Follow</h2>
         <div className='flex flex-col gap-6 mt-4'>
             {/* TODO USER LIST */}
         </div>

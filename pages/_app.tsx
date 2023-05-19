@@ -4,8 +4,11 @@ import Layout from '../components/Layout'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
+    <>
+    <Modal />
     <Layout>
       <Component {...pageProps} />
     </Layout>
+    </>
   )
 }
