@@ -33,7 +33,7 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
                lg:hidden
             "
         >
-            <Icon size={28} color="white" />
+            <Icon size={28} color="bg-sky-500" />
         </div>
         <div 
           className='
