@@ -17,8 +17,8 @@ const LoginModal = () => {
           return;
         }
   
-        registerModal.onClose();
-        loginModal.onOpen();
+        registerModal.onOpen();
+        loginModal.onClose();
       }, [isLoading, registerModal, loginModal])
   
 
