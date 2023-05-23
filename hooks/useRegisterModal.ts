@@ -8,7 +8,7 @@ interface RegisterModalStore {
 
 const useRegisterModal = create<RegisterModalStore>((set) => ({
     // change is open to true and we open the login modal
-    isOpen: false,
+    isOpen: true,
     onOpen: () => set({ isOpen: true }),
     onClose: () => set({ isOpen: false })
   }));
