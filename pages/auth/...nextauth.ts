@@ -35,9 +35,9 @@ export default NextAuth({
 
                 if (!isCorrectedPassword) {
                     throw new Error("invalid credentials")
-
-                    return user
                 }
+                    return user
+                
             }
         })
     ]
