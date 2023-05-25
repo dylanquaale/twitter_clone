@@ -1,5 +1,5 @@
 import { PrismaClient } from '@prisma/client';
-import { isPropertyAccessChain } from 'typescript';
+// import { isPropertyAccessChain } from 'typescript';
 
 declare global {
     var prisma: PrismaClient | undefined
