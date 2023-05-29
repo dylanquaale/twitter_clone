@@ -1,4 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next';
+
 import { authOptions } from '@/pages/api/auth/[...nextauth]';
 import { getServerSession } from 'next-auth';
 
@@ -14,7 +15,7 @@ const serverAuth = async (req: NextApiRequest, res: NextApiResponse) => {
     const currentUser = await prisma.user.findUnique({
       where: {
         email: session.user.email,
-      },
+      }
     });
   
     if (!currentUser) {
