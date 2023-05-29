@@ -1,10 +1,10 @@
 import { create } from 'zustand'; 
 
 interface LoginModalStore {
-    isOpen: boolean,
+    isOpen: boolean;
     onOpen: () => void;
     onClose: () => void;
-};
+}
 
 const useLoginModal = create<LoginModalStore>((set) => ({
     // change is open to true and we open the login modal
